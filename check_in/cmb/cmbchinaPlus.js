@@ -45,7 +45,8 @@ function checkin() {
   };
   
   clientUtil.post(requestParams, (error, response, data) => {
-    const result = JSON.parse(data)
+    const result = JSON.parse(data);
+    console.log(result);
     if (result.respCode == 1000) {
       clientUtil.msg("招商银行信用卡", "", "签到成功，获得 " + result.data.awardValue + " 积分🎁");
     } else if (result.respCode == 1452) {
