@@ -19,6 +19,8 @@
     
     [MITM]
     hostname = weclub.xyk.cmbchina.com
+
+    有效期只有几个小时，练手脚本默认禁用
 */
 
 const clientUtil = init();
