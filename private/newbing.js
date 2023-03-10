@@ -1,4 +1,6 @@
 //修改请求头信息
+Change_Request();
+
 function Change_Request()
 {
     var RequestHeaders = $request.headers;
