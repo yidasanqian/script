@@ -15,6 +15,6 @@ https://store.appek.cn/appstore
 喵喵签多开源
 https://yuan.amiao.app/appstore
 EN网库丨源地址
-https://app.enmvp.top/appstore
+https://ios.enwk.cc/appstore
 Burrito's AltStore
 https://burritosoftware.github.io/altstore/channels/burritosource.json
