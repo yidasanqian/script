@@ -13,7 +13,7 @@ const cookieKey = 'zhiwen_cookieKey';
 const $tool = tool();
 try {
     console.log("🍎智文签到脚本开始!");
-    $tool.setkeyval("account_id=16590341773;appid=a8e55e1974;", cookieKey);
+    $tool.setkeyval("account_id=16590341773;appid=a8e55e1974;JSESSIONID=C5A9F53C0F2325450FE25AACB240FBFC", cookieKey);
     var img = "https://zhiwen.xfyun.cn/favicon.ico";
 
     var url = 'https://zhiwen.xfyun.cn/api/user/signIn';
