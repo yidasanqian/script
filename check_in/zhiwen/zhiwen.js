@@ -26,15 +26,7 @@ try {
         'Referer': 'https://zhiwen.xfyun.cn/home',
         'Host': 'zhiwen.xfyun.cn',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7,en-GB;q=0.6',
-        'Accept': 'application/json, text/plain, */*',
-        'X-Requested-With': 'XMLHttpRequest',
-        'Sec-Ch-Ua': '"Google Chrome";v="125", "Not.A/Brand";v="24"',
-        'Sec-Ch-Ua-Mobile':'?0',
-        'Sec-Ch-Ua-Platform':'Windows',
-        'Sec-Fetch-Dest':'empty',
-        'Sec-Fetch-Mode':'cors',
-        'Sec-Fetch-Site': 'same-origin'
-
+        'Accept': 'application/json, text/plain, */*'
     };
     var body = '';
 
