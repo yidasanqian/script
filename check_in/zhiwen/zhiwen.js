@@ -40,21 +40,16 @@ try {
     $tool.post(myRequest, function (e, r, d) {
         console.log(d);
         var obj = JSON.parse(d);
-        if (!!obj.code) {
-            if (obj.code == 0) {    
-                // {"flag":true,"code":0,"desc":"成功","count":null,"data":1310}           
-                $tool.notify("智文签到成功!", `当前积分:${obj.data}`, { img: img });
-                $done();
-            }
-            else {
-                $tool.notify("智文签到失败!", `原因：${obj.desc}`, d, { img: img });
-                $done();
-            }
-        }
-        else {
-            $tool.notify("智文签到失败!", d, d, { img: img });
+        if (obj.code == 0) {    
+            // {"flag":true,"code":0,"desc":"成功","count":null,"data":1310}           
+            $tool.notify("智文签到成功!", `当前积分:${obj.data}`, { img: img });
             $done();
         }
+        else {
+            $tool.notify("智文签到失败!", `原因：${obj.desc}`, d, { img: img });
+            
+        }
+        $done();
     })
 } catch (e) {
     console.log("🍎error" + e);
